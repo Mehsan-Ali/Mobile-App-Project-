@@ -18,7 +18,6 @@ const app = express();
 const cors = require('cors')  //! Used For giving the permission to browser
 
 app.use(cors());
-//! Connect to mongodb
 
 mongoose
   .connect("mongodb://localhost:27017/Voting")
